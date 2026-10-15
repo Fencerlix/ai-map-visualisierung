@@ -1,2 +1,13 @@
 # Installierte npm-Pakete
 node_modules/
+
+# Build-Ausgabe
+dist/
+
+# Lokale Umgebungsvariablen und Geheimnisse
+.env
+.env.*
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
