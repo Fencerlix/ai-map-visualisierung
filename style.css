@@ -1,0 +1,93 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+#app{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+#filter-bar {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    background: #f8f8f8;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+#filters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filter-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+}
+
+.filter-group label {
+    cursor: pointer;
+}
+
+#reset-filters {
+    margin-top: 15px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#graph{
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+}
+
+#graph svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#info-panel{
+    width: 350px;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.entity-list {
+    list-style: none;
+    padding: 0;
+}
+
+.entity-list li {
+    margin-bottom: 8px;
+}
+
+.entity-list button {
+    width: 100%;
+    padding: 8px 10px;
+    text-align: left;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.entity-list button:hover {
+    text-decoration: underline;
+}

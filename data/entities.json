@@ -1,0 +1,1739 @@
+{
+    "entities": [
+        {
+            "title": "AI Requires *Fast* & *Portable* Implementation",
+            "discipline": "computer-science",
+            "categories": [
+                "developing-ai"
+            ],
+            "people": "Sergei Gorlatch, Ari Rasch, Richard Schulze",
+            "location":"Computer Science Department",
+            "description":"The success of AI applications depends crucially on the software that implements these applications. Combined with the computing power of modern parallel systems, high-performance software enables AI to become practical, e.g. for speech recognition and image classification.\n\nOur DFG-funded project aims to support the AI domain scientist in developing fast AI applications that are portable over various computer architectures, ranging from large cluster systems to simple mobile devices. In particular, our project develops a formally sound domain-specific language for the AI expert to allow easily expressing the basic building blocks of AI software (such as matrix multiplication and convolutions), independent of hardware and optimization details. These user-defined building blocks are then transformed via our approach, fully automatically, to highly optimized program code, based on concepts from mathematical algebra and numerical optimization. Thereby, our project highly contributes to making AI software practical and available on a wide range of computer devices.",
+            "emails":[
+                "a.rasch@uni-muenster.de"
+            ],
+            "links":[
+                {
+                    "url":"https://mdh-lang.org/",
+                    "title":"Multi-Dimensional Homomorphisms (MDH)"
+                }
+            ]
+        },
+        {
+            "title": "Autonomous Intelligent Systems – From Adaptive Behavior to Cognitive Robots",
+            "discipline": "computer-science",
+            "categories": [
+                "developing-ai"
+            ],
+            "people": "Malte Schilling",
+            "location": "Computer Science Department",
+            "description": "Autonomous robots are tasked with producing robust behavior even in unpredictable environments. The Autonomous Intelligent Systems group is leveraging Machine Learning methods to train intelligent agents: First, we take inspiration from biological motor control principles and focus on decentralized control. One example is given in locomotion in animals that can climb on uneven terrain. Adaptive behavior emerges from interaction of simple local control modules. Such a decentralized control structure can be utilized in Deep Reinforcement Learning for faster learning of more robust and general skills.\n\nSecondly, our interest is to extended this towards cognitive systems using predictive neural network models: In cognitive behavior —understood as a form of planning ahead— knowledge on how to execute a behavior can be safely leveraged into novel contexts when using an internal simulation to predict possible outcomes. Our goal is to realize this in adaptive systems that act and interact in the real world.",
+            "emails":[
+                "malte.schilling@uni-muenster.de"
+            ],
+            "links":[
+                {
+                    "url":"https://www.uni-muenster.de/AISystems/",
+                    "title":"Research Group \"Autonomous Intelligent Systems\""
+                }
+            ]
+        },
+        {
+            "title": "Computer Vision & Machine Learning Systems (CVMLS) Group",
+            "discipline": "computer-science",
+            "categories": [
+                "developing-ai"
+            ],
+            "people": "Benjamin Risse (Group Leader), Marlon Becker, Daniel Beckmann, Julian Bigge, Dr. Dominik Drees, Luis Garcia-Rodriguez, Eike Gebauer, Jacqueline Kockwelp, Jonas Konrad, Pascal Kockwelp, Mingkun Tan, Malte Modlich, Constanza Andrea Molina Catricheo, Leon Pielage, Jonathan Radas, Sebastian Thiele",
+            "location":"Institute for Geoinformatics",
+            "description": "We are interested in interdisciplinary research questions involving the development of novel computer vision, machine learning and imaging technologies yielding new approaches to acquire and analyse data. This requires a fundamental investigation of how computers perceive and understand complex real-world situations. By examining the entire process from data acquisition (i.e. sensing hardware) over data interaction (e.g. augmented and virtual reality) to quantitative evaluations (i.e. algorithms) we are seeking for solutions beyond classical image analysis, pattern recognition and artificial intelligence methodologies. Many lessons remain to be learned to tackle the challenges of real-world data which we seek to study and reveal in the coming years to develop novel and sustainable data-driven systems.",
+            "emails":[
+                "cvmls@uni-muenster.de",
+                "ai@uni-muenster.de",
+                "b.risse@uni-muenster.de"
+            ],
+            "links":[
+                {
+                    "url":"http://cvmls.org/",
+                    "title":"Research Group \"Computer Vision and Machine Learning Systems Group\""
+                }
+            ]
+        },
+        {
+            "title": "Machine Learning and Data Engineering (MLDE)",
+            "discipline": "computer-science",
+            "categories": [
+                "developing-ai"
+            ],
+            "people": "Fabian Gieseke (Group Leader), Jens Lechtenbörger, Nina Herrmann, Karsten Schrödter, Sugandha Arora, Una Kelly, Julian Kranz, Jan Pauls, Jorunn Mense, Jan Stenkamp, Sven Ligensa, Julia Seither",
+            "location": "Department of Information Systems",
+            "description": "The Machine Learning and Data Engineering group focuses on developing efficient and scalable implementations of modern machine learning methods. Our research addresses key challenges such as reducing the computational resources required for the inference phase of large-scale deep learning models or accelerating training through distributed computing. Beyond advancing algorithms, we place a strong emphasis on bridging the gap between theory and practice by designing solutions that can be deployed in real-world, resource-constrained environments. This often involves close collaboration with experts from other domains, including large-scale satellite data analysis or modern energy systems.",
+            "emails":[
+                "fabian.gieseke@uni-muenster.de"
+            ],
+            "links":[
+                {
+                    "url":"https://mlde-lab.github.io/",
+                    "title":"Research Group \"Machine Learning and Data Engineering (MLDE)\""
+                }
+            ]
+        },
+        {
+            "title": "Pattern Recognition and Image Analysis: Advanced Algorithm Development and Applications",
+            "discipline": "computer-science",
+            "categories": [
+                "developing-ai"
+            ],
+            "people": "Prof. Dr. Xiaoyi Jiang (Group Leader)",
+            "location": "Department of Computer Science",
+            "description": "The Pattern Recognition and Image Analysis (PRIA) research group within the Department of Computer Science conducts foundational research and develops advanced algorithms in pattern recognition, image analysis, and machine learning. Our algorithms extract information from data, supporting a range of tasks from quantification to high-level semantic understanding, such as clustering, classification, and prediction. Public software tools emerging from our research facilitate the community’s adoption and application of these methods. We have established long-term collaborations with researchers in various disciplines to address complex scientific questions. A primary research focus is on biomedical image and pattern analysis, encompassing image processing, multimodal and temporal image registration, image segmentation, shape analysis, motion analysis, and multiscale analysis. We are also investigating the potential of large language models in healthcare. Additional collaborative efforts span fields including chemistry, computer-assisted surgery, and economics.",
+            "emails":[
+                "xjiang@uni-muenster.de"
+            ],
+            "links":[
+                {
+                    "url": "https://www.uni-muenster.de/PRIA/index.html",
+                    "title": "Pattern Recognition and Image Analysis (PRIA)"
+                }
+            ]
+        },
+        {
+            "title": "Research Activities of the Research Group Data Science",
+            "discipline": "computer-science",
+            "categories": [
+                "developing-ai"
+            ],
+            "people": "Tanya Braun, Sagad Hamid, Nazli Nur Karabulut",
+            "location": "Computer Science Department",
+            "description": "Developing intelligent agents, i.e., agents that act rationally in their environment, is at the core of many AI applications. Key for such an agent is an internal model that enables making decisions regarding the best possible outcome w.r.t. a specific task. Due to an agent’s limited resources, the model must encode large amounts of heterogeneous data compactly and enable efficient reasoning. At this point, our research comes in, investigating and combining a wide range of research areas to facilitate developing efficient models and algorithms for different application scenarios and contexts. In particular, we focus on reducing a model’s complexity by leveraging symmetries and regularities in its structure and parameters, allowing us to introduce compact encodings for more efficient reasoning. We apply our methods to a variety of models, ranging from tensor networks for probabilistic inference to partially observable stochastic games for multi-agent decision making.",
+            "emails":[
+                "tanya.braun@uni-muenster.de"
+            ],
+            "links":[
+                {
+                    "url": "https://www.uni-muenster.de/Informatik.AGBraun/",
+                    "title": "Research Group of Jun.-Prof. Dr. Tanya Braun"
+                }
+            ]
+        },
+        {
+            "title": "Safe Learning in Hybrid Systems Using Contracts",
+            "discipline": "computer-science",
+            "categories": [
+                "developing-ai"
+            ],
+            "people": "Julius Laurin Adelt, Pauline Anne Blohm, Paula Herber, Mathis Niehage, Anne Remke",
+            "location": "Computer Science Department",
+            "description": "In the joint research activities of the Embedded Systems and Safety-critical Systems groups at the Computer Science Department, we investigate new methods for the safe use of learning in safetycritical systems, such as autonomous vehicles or critical infrastructures. One of our key concepts is to provide transformations from industrially used design languages into formal languages. We combine these transformations with novel deductive verification and stochastic evaluation techniques to verify the correctness of systems that include learning components. Our main contributions with respect to the verification and analysis techniques are twofold: First, we integrate reusable contracts that define safe behavior of learning components in deductive verification techniques. Second, we investigate novel quantitative analysis and optimization techniques using (statistical) model checking and learning. Besides classical safety properties, we also consider quantitative properties such as performance and resilience, i.e. the ability of a system to dynamically adapt to stressors or external disruptions.",
+            "emails":[
+                "julius.adelt@uni-muenster.de"
+            ],
+            "links":[
+                {
+                    "url":"https://www.uni-muenster.de/EmbSys/",
+                    "title":"Research Group \"Embedded Systems\""
+                },
+                {
+                    "url":"https://www.uni-muenster.de/Informatik.AGRemke/en/",
+                    "title": "Research Group \"Safety-critical Systems\""
+                }
+            ]
+        },
+        {
+            "title": "Visual AI",
+            "discipline": "computer-science",
+            "categories": [
+                "developing-ai"
+            ],
+            "people": "Lars Linsen",
+            "location": "Computer Science Department",
+            "description": "Visual Artificial Intelligence (Visual AI) is a user-centric approach to data analysis. The user-centric approach allows the data analyst to bring his/her expertise and domain knowledge into the analysis process. Visual AI combines automatic and interactive analysis steps. Methods from machine learning including deep-learning approaches are developed and employed to automatically extract information from data sets. This information is presented to the user in the form of visual representations, as visual representations are intuitive for humans and efficient to process. The user can interact with the visual representations to explore the outcome of the information extraction step, refine or adapt the analysis, and trigger the next analysis step. Overall, this leads to an interactive analysis process, where individual computational steps are comprehensible and interpretable for the users.",
+            "emails":[
+                "linsen@uni-muenster.de"
+            ],
+            "links":[
+                {
+                    "url":"https://www.uni-muenster.de/VISIX/",
+                    "title":"Visualization & Graphics (VISIX)"
+                }
+            ]
+        },
+        {
+            "title": "BlockXT",
+            "discipline": "mathematics",
+            "categories": [
+                "developing-ai"
+            ],
+            "people": "Alexander Schell, Christian Engwer",
+            "location": "Institute of Applied Mathematics",
+            "description": "In this DFG funded project we aim at bridging gaps between traditional simulation methods and machine learning. A central part of the success of machine learning methods was and is the possibility to employ instruction level parallelism of dedicated machine learning hardware. This enabled the implementation of methods that were simply to costly before.\nNumerical methods for solving partial differential equations (PDE) are of central importance in many fields of application and a promissing path is to incorporate learned components, e.g. material functions, into deterministic simulations. When trying to combine classical numerical methods, like simulations of PDEs, with machine learning a significant challenge is that these numerical methods are not designed to perform well on the new hardware platforms.\nIn this project we design new numerical methods that improve the efficiently of simulations of instationary PDEs on modern hardware new dedicated numerical methods are necessary. The numerical approach is based on preliminary work on block-Krylov methods. Combining them with parallel-in-time methods facilitates the transparent use of vector units of modern CPUs and by this allows to utilize a significant portion of the attainable peak performance. This offers a basis for efficient training of models involving partial differential equations. We will contribute to an improved hardware efficiency by development of new numerical methods, analysis of their performance, a hardware-efficient implementation and its validation.",
+            "emails":[
+                "alexander.schell@uni-muenster.de"
+            ],
+            "links":[
+                {
+                    "url":"https://www.uni-muenster.de/AMM/num/Arbeitsgruppen/ag_engwer/",
+                    "title":"Research Group \"Applications of Partial Differential Equations\""
+                }
+            ]
+        },
+        {
+            "title": "DUNE",
+            "discipline": "mathematics",
+            "categories": [
+                ""
+            ],
+            "people": "Christian Engwer, Alexander Schell, Gunner Birke & the international DUNE team",
+            "location": "Institute of Applied Mathematics",
+            "description": "Solving partial differential equations (PDEs) is an important building block in many data analysis questions. The Distributed and Unified Numerics Environment (DUNE) is joint effort by to develop a modular toolbox that offers infrastructure to implement a wide range of numerical methods. The main focus are grid-based methods for solving PDEs, inparticular using finite element and finite volume methods. DUNE is written in C++, but has interfaces to Python as well.\nDUNE offers components to implement a wide range of discretizations, but also supports developing and implementing problem specific parallel solvers for linear and non-linear problems.\nThe underlying idea of DUNE is to create slim interfaces allowing an efficient use of legacy and/or new libraries. Modern C++ programming techniques enable very different implementations of the same concept using a common interface at a very low overhead. Thus DUNE ensures efficiency in scientific computations and supports high-performance computing applications.",
+            "emails":[
+                "christian.engwer@uni-muenster.de"
+            ],
+            "links":[
+                {
+                    "url":"https://dune-project.org/",
+                    "title":"Dune Project"
+                }
+            ]
+        },
+        {
+            "title": "Mathematical Methods in Machine Learning",
+            "discipline": "mathematics",
+            "categories": [
+                ""
+            ],
+            "people": "Frederick Jan Altrock, Christian Engwer",
+            "location": "Institute of Applied Mathematics",
+            "description": "State of the art machine learning approaches are mostly driven by heuristic and emperical observations. At the same time mathematical, rigorous statements are most often so limited that they are not applicable to real world problems. We present different approaches to adopt well understood concepts from statistics and numerical mathematics, which can help to improve interpretability and performance of the machine learning methods.",
+            "emails":[
+                "f_altr02@uni-muenster.de"
+            ],
+            "links":[
+                {
+                    "url":"https://www.uni-muenster.de/AMM/num/Arbeitsgruppen/ag_engwer/",
+                    "title":"Research Group \"Applications of Partial Differential Equations\""
+                }
+            ]
+        },
+        {
+            "title": "Momentum-SAM: Sharpness Aware Minimization without Computational Overhead",
+            "discipline": "mathematics",
+            "categories": [
+                ""
+            ],
+            "people": "Frederick Jan Altrock\u00B9, Marlon Becker\u00B2, Benjamin Risse\u00B2",
+            "location": "Institute of Applied Mathematics\u00B9, Institute for Geoinformatics\u00B2",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "mathematics",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "mathematics",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "mathematics",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "physics",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "physics",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "physics",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "physics",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "physics",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "chemistry-pharmacy",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "chemistry-pharmacy",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "chemistry-pharmacy",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "chemistry-pharmacy",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "medicine",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "geosciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "geosciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "geosciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "geosciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "biology",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "theology-religious-studies",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "theology-religious-studies",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "theology-religious-studies",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "law",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "law",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "law",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "law",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "law",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "business-economics",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "business-economics",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "business-economics",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "educational-social-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "educational-social-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "educational-social-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "educational-social-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "educational-social-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "educational-social-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "educational-social-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "educational-social-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "educational-social-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "educational-social-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "educational-social-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "educational-social-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "educational-social-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "psychology-sport-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "psychology-sport-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "psychology-sport-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "psychology-sport-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "psychology-sport-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "psychology-sport-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "psychology-sport-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "psychology-sport-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "psychology-sport-sciences",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "history",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "history",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "philosophy",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "philology",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "philology",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "philology",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "philology",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "interdepartmental-institutions",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "interdepartmental-institutions",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "interdepartmental-institutions",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "interdepartmental-institutions",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "interdepartmental-institutions",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "interdepartmental-institutions",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        },
+        {
+            "title": "",
+            "discipline": "interdepartmental-institutions",
+            "categories": [
+                ""
+            ],
+            "people": "",
+            "location": "",
+            "description": "",
+            "emails":[
+                ""
+            ],
+            "links":[
+                {
+                    "url":"",
+                    "title":""
+                }
+            ]
+        }
+    ]
+}
