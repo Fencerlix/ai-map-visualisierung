@@ -14,7 +14,7 @@ import {
 } from "./filterLayout.js";
 
 import { nodeStyles } from "../config/nodeStyles.js";
-import { labelStyles } from "../config/labelStyles.js";
+
 
 export function createGraph(graph){
 
