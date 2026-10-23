@@ -61,6 +61,47 @@ body {
     display: block;
 }
 
+
+
+/* Rotierender SVG-Hintergrund */
+.node-background {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: logo-swirl 18s linear infinite;
+    opacity: 1;
+    transition: opacity 180ms ease;
+    pointer-events: none;
+}
+
+@keyframes logo-swirl {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.discipline-icon {
+    filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.45));
+    opacity: 1;
+    transition: opacity 180ms ease;
+    pointer-events: none;
+}
+
+/* Optional: Animation bei reduzierter Bewegung verlangsamen */
+@media (prefers-reduced-motion: reduce) {
+    .node-background {
+        animation-duration: 90s;
+    }
+}
+
+
+
+
+
 #info-panel{
     width: 350px;
     padding: 20px;

@@ -15,7 +15,6 @@ import {
 
 import { nodeStyles } from "../config/nodeStyles.js";
 
-
 export function createGraph(graph){
 
     const graphElement = document.getElementById("graph");
@@ -35,6 +34,7 @@ export function createGraph(graph){
 
     const {
         node,
+        nodeBackgrounds,
         link,
         labels,
         disciplineIcons
@@ -49,7 +49,14 @@ export function createGraph(graph){
 
     // interactions
     enableDrag(node, simulation);
-    enableHover(node, link, labels, graph);
+    enableHover(
+        node,
+        link,
+        labels,
+        graph,
+        nodeBackgrounds,
+        disciplineIcons
+    );
     enablePanel(node, graph);
 
     // updating simulation
@@ -62,6 +69,11 @@ export function createGraph(graph){
         node
             .attr("cx",d=>d.x)
             .attr("cy",d=>d.y);
+        nodeBackgrounds
+            .attr("x", d =>
+                d.x - nodeStyles[d.type]?.radius)
+            .attr("y", d =>
+                d.y - nodeStyles[d.type]?.radius);
         labels
             .attr("x",d=>d.x)
             .attr("y",d=>d.y);
@@ -83,6 +95,7 @@ export function createGraph(graph){
 
     return {
         node,
+        nodeBackgrounds,
         link,
         labels,
         disciplineIcons,

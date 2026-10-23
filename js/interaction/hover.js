@@ -31,36 +31,23 @@ export function enableHover(
     node,
     link,
     labels,
-    graph
+    graph,
+    nodeBackgrounds,
+    disciplineIcons
 ) {
-
     node
-
         .on("mouseenter", (event, hoveredNode) => {
-
-            // ----------------------------------------
             // Labels zurücksetzen
-            // ----------------------------------------
+            labels.style("opacity", 0);
 
-            labels
-                .style("opacity", 0);
-
-
-            // ----------------------------------------
             // Aktives Label anzeigen
-            // ----------------------------------------
-
             labels
                 .filter(labelNode =>
                     labelNode.id === hoveredNode.id
                 )
                 .style("opacity", 1);
 
-
-            // ----------------------------------------
             // Nodes hervorheben
-            // ----------------------------------------
-
             node.attr("opacity", currentNode => {
                 return isConnected(
                     hoveredNode,
@@ -71,11 +58,15 @@ export function enableHover(
                     : 0.2;
             });
 
+            nodeBackgrounds.style("opacity", currentNode =>
+                currentNode.id === hoveredNode.id ? 1 : 0.1
+            );
 
-            // ----------------------------------------
+            disciplineIcons.style("opacity", currentNode =>
+                currentNode.id === hoveredNode.id ? 1 : 0.1
+            );
+
             // Links hervorheben
-            // ----------------------------------------
-
             link.attr("opacity", currentLink => {
                 return (
                     currentLink.source.id === hoveredNode.id ||
@@ -94,6 +85,10 @@ export function enableHover(
             node.attr("opacity", 1);
             // Links zurücksetzen
             link.attr("opacity", 1);
+            // Hintergründe zurücksetzen
+            nodeBackgrounds.style("opacity", 1);
+            // Icons zurücksetzen
+            disciplineIcons.style("opacity", 1);    
         });
 
 }

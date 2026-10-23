@@ -20,12 +20,37 @@ export function createRenderer(container, graph){
             nodeStyles[d.type]?.radius ?? 10
         )
         .attr("fill", d => {
-            if (d.type === "discipline") {
-                return "steelblue";}
             if (d.type === "category") {
                 return "orange";}
-            return "gray";
+            if (d.type === "discipline") {
+                return "steelblue";}   
+            return "transparent";
         });
+
+    // Rotierende Logo-Hintergründe für alle Nodes
+    const nodeBackgrounds = container
+        .append("g")
+        .attr("class", "node-backgrounds")
+        .selectAll("image")
+        .data(graph.nodes.filter(d => d.type === "entity"))
+        .join("image")
+        .attr("class", "node-background")
+        .attr("href", "/assets/CDSC_logo.svg")
+        .attr("width", d =>
+            (nodeStyles[d.type]?.radius ?? 10) * 2
+        )
+        .attr("height", d =>
+            (nodeStyles[d.type]?.radius ?? 10) * 2
+        )
+        .attr("x", d =>
+            (d.x ?? 0) -
+            (nodeStyles[d.type]?.radius ?? 20)
+        )
+        .attr("y", d =>
+            (d.y ?? 0) -
+            (nodeStyles[d.type]?.radius ?? 20)
+        )
+        .style("pointer-events", "none");
 
     const labels = container
         .append("g")
@@ -65,8 +90,10 @@ export function createRenderer(container, graph){
         .attr("y", d => d.y - nodeStyles.discipline.iconSize / 2)
         .style("pointer-events", "none");
 
+
     return {
         node,
+        nodeBackgrounds,
         link,
         labels,
         disciplineIcons
