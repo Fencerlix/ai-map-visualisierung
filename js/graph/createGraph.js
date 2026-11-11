@@ -82,10 +82,8 @@ export function createGraph(graph){
             .attr("y", d => d.y - nodeStyles.discipline.iconSize / 2);
     });
 
-    // ----------------------------------------
+    
     // Default Layout initialisieren
-    // ----------------------------------------
-
     applyDefaultLayout(
         simulation,
         graph.nodes,
@@ -148,10 +146,7 @@ export function updateGraph(graphElements, visibleGraph, filters, graph) {
         );
     }
 
-    // ----------------------------------------
     // Nodes ein-/ausblenden
-    // ----------------------------------------
-
     graphElements.node
         .style("display", d => {
             return visibleNodeIds.has(d.id)
@@ -166,10 +161,7 @@ export function updateGraph(graphElements, visibleGraph, filters, graph) {
                 : "none";
         });
 
-    // ----------------------------------------
     // Labels ein-/ausblenden
-    // ----------------------------------------
-
     graphElements.labels
     .style("display", d => {
 
@@ -179,11 +171,7 @@ export function updateGraph(graphElements, visibleGraph, filters, graph) {
 
     });
 
-
-    // ----------------------------------------
     // Links ein-/ausblenden
-    // ----------------------------------------
-
     graphElements.link
         .style("display", d => {
             const sourceId =
@@ -203,10 +191,7 @@ export function updateGraph(graphElements, visibleGraph, filters, graph) {
         });
 
     
-    // ========================================
     // Simulation
-    // ========================================
-    
     graphElements.simulation
         .alpha(0.1)
         .restart();

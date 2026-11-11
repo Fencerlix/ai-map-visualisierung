@@ -1,8 +1,6 @@
 import { disciplines } from "../config/disciplines.js";
-import { categories } from "../config/categories.js";
 
 let activeDisciplines = new Set();
-let activeCategories = new Set();
 
 export function createFilters(onFilterChange) {
 
@@ -51,59 +49,17 @@ export function createFilters(onFilterChange) {
     }
     container.appendChild(disciplineContainer);
 
-    // ----------------------------------------
-    // Kategorien
-    // ----------------------------------------
-
-    const categoryTitle =
-        document.createElement("h3");
-    categoryTitle.textContent =
-        "Kategorien";
-    container.appendChild(categoryTitle);
-    const categoryContainer =
-        document.createElement("div");
-    categoryContainer.classList.add("filter-group");
-
-    for (const [id, category] of Object.entries(categories)) {
-        const label =
-            document.createElement("label");
-        const checkbox =
-            document.createElement("input");
-        checkbox.type = "checkbox";
-        checkbox.value = id;
-        checkbox.addEventListener("change", () => {
-            if (checkbox.checked) {
-                activeCategories.add(id);
-            } else {
-                activeCategories.delete(id);
-            }
-            onFilterChange(
-                getActiveFilters()
-            );
-        });
-        label.appendChild(checkbox);
-        label.appendChild(
-            document.createTextNode(
-                " " + category.name
-            )
-        );
-        categoryContainer.appendChild(label);
-    }
-    container.appendChild(categoryContainer);
 }
 
 function getActiveFilters() {
     return {
         disciplines:
-            new Set(activeDisciplines),
-        categories:
-            new Set(activeCategories)
+            new Set(activeDisciplines)
     };
 }
 
 export function resetFilters() {
     activeDisciplines.clear();
-    activeCategories.clear();
     const checkboxes =
         document.querySelectorAll(
             "#filters input[type='checkbox']"
@@ -117,26 +73,9 @@ export function resetFilters() {
 
 
 export function getVisibleElements(graph, filters) {
-
-    // ========================================
-    // 1. Sind überhaupt Filter aktiv?
-    // ========================================
-
-    const hasDisciplineFilters =
-        filters.disciplines.size > 0;
-
-    const hasCategoryFilters =
-        filters.categories.size > 0;
-
-
-    // ========================================
-    // 2. Keine Filter
-    // → kompletter Graph
-    // ========================================
-
+    // 2. Keine Filter → kompletter Graph
     if (
-        !hasDisciplineFilters &&
-        !hasCategoryFilters
+        filters.disciplines.size === 0
     ) {
 
         const defaultNodes =
@@ -177,10 +116,7 @@ export function getVisibleElements(graph, filters) {
     }
 
 
-    // ========================================
     // 3. Sichtbare Entity IDs bestimmen
-    // ========================================
-
     const visibleEntityIds = new Set();
     graph.nodes
     .filter(node => node.type === "entity")
@@ -190,19 +126,11 @@ export function getVisibleElements(graph, filters) {
         }
     });
 
-
-    // ========================================
     // 4. Sichtbare Nodes
-    // ========================================
-
     const visibleNodeIds =
         new Set(visibleEntityIds);
 
-
-    // ----------------------------------------
     // Ausgewählte Discipline Nodes
-    // ----------------------------------------
-
     graph.nodes
         .filter(node => node.type === "discipline")
         .forEach(node => {
@@ -214,47 +142,20 @@ export function getVisibleElements(graph, filters) {
             // Wenn Disziplinen gefiltert werden,
             // nur ausgewählte anzeigen.
             if (
-                hasDisciplineFilters &&
+                filters.disciplines.size > 0 &&
                 filters.disciplines.has(disciplineId)
             ) {
                 visibleNodeIds.add(node.id);
             }
         });
 
-    // ----------------------------------------
-    // Ausgewählte Category Nodes
-    // ----------------------------------------
-
-    graph.nodes
-        .filter(node => node.type === "category")
-        .forEach(node => {
-            const categoryId =
-                node.id.replace(
-                    "category-",
-                    ""
-                );
-            if (
-                hasCategoryFilters &&
-                filters.categories.has(categoryId)
-            ) {
-                visibleNodeIds.add(node.id);
-            }
-        });
-
-
-    // ========================================
     // 5. Sichtbare Nodes aus Graph bestimmen
-    // ========================================
-
     const visibleNodes =
         graph.nodes.filter(node =>
             visibleNodeIds.has(node.id)
         );
 
-    // ========================================
     // 6. Sichtbare Links bestimmen
-    // ========================================
-
     const visibleLinks =
         graph.links.filter(link => {
 
@@ -274,10 +175,7 @@ export function getVisibleElements(graph, filters) {
             );
         });
 
-    // ========================================
     // 7. Ergebnis
-    // ========================================
-        
     return {
         nodes: visibleNodes,
         links: visibleLinks
@@ -286,52 +184,13 @@ export function getVisibleElements(graph, filters) {
 }
 
 export function isNodeVisible(node, filters) {
-
-    // ----------------------------------------
-    // Keine Filter
-    // ----------------------------------------
-
-    const noDisciplineFilter =
-        filters.disciplines.size === 0;
-    const noCategoryFilter =
-        filters.categories.size === 0;
     if (
-        noDisciplineFilter &&
-        noCategoryFilter
+        filters.disciplines.size === 0
     ) {
         return true;
     }
-
-    // ----------------------------------------
-    // Discipline prüfen 
-    // -> Node muss in einer ausgewählten 
-    // Disziplin sein
-    // ----------------------------------------
-
-    let matchesDiscipline = true;
-    if (!noDisciplineFilter) {
-        matchesDiscipline =
-            filters.disciplines.has(
-                node.discipline
-            );
-    }
-
-    // ----------------------------------------
-    // Category prüfen 
-    // -> Alle ausgewählten Kategorien 
-    // müssen im Node enthalten sein
-    // ----------------------------------------
-
-    let matchesCategory = true;
-    if (!noCategoryFilter) {
-        matchesCategory =
-            Array.isArray(node.categories) &&
-            [...filters.categories].every(category =>
-                node.categories.includes(category)
-            );
-    }
-    return (
-        matchesDiscipline &&
-        matchesCategory
+    
+    return filters.disciplines.has(
+        node.discipline
     );
 }

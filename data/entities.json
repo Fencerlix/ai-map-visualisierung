@@ -3,7 +3,7 @@
         {
             "title": "AI Requires *Fast* & *Portable* Implementation",
             "discipline": "computer-science",
-            "categories": [
+            "keywords": [
                 "developing-ai"
             ],
             "people": "Sergei Gorlatch, Ari Rasch, Richard Schulze",
@@ -22,7 +22,7 @@
         {
             "title": "Autonomous Intelligent Systems – From Adaptive Behavior to Cognitive Robots",
             "discipline": "computer-science",
-            "categories": [
+            "keywords": [
                 "developing-ai"
             ],
             "people": "Malte Schilling",
@@ -41,7 +41,7 @@
         {
             "title": "Computer Vision & Machine Learning Systems (CVMLS) Group",
             "discipline": "computer-science",
-            "categories": [
+            "keywords": [
                 "developing-ai"
             ],
             "people": "Benjamin Risse (Group Leader), Marlon Becker, Daniel Beckmann, Julian Bigge, Dr. Dominik Drees, Luis Garcia-Rodriguez, Eike Gebauer, Jacqueline Kockwelp, Jonas Konrad, Pascal Kockwelp, Mingkun Tan, Malte Modlich, Constanza Andrea Molina Catricheo, Leon Pielage, Jonathan Radas, Sebastian Thiele",
@@ -62,7 +62,7 @@
         {
             "title": "Machine Learning and Data Engineering (MLDE)",
             "discipline": "computer-science",
-            "categories": [
+            "keywords": [
                 "developing-ai"
             ],
             "people": "Fabian Gieseke (Group Leader), Jens Lechtenbörger, Nina Herrmann, Karsten Schrödter, Sugandha Arora, Una Kelly, Julian Kranz, Jan Pauls, Jorunn Mense, Jan Stenkamp, Sven Ligensa, Julia Seither",
@@ -81,7 +81,7 @@
         {
             "title": "Pattern Recognition and Image Analysis: Advanced Algorithm Development and Applications",
             "discipline": "computer-science",
-            "categories": [
+            "keywords": [
                 "developing-ai"
             ],
             "people": "Prof. Dr. Xiaoyi Jiang (Group Leader)",
@@ -100,7 +100,7 @@
         {
             "title": "Research Activities of the Research Group Data Science",
             "discipline": "computer-science",
-            "categories": [
+            "keywords": [
                 "developing-ai"
             ],
             "people": "Tanya Braun, Sagad Hamid, Nazli Nur Karabulut",
@@ -119,7 +119,7 @@
         {
             "title": "Safe Learning in Hybrid Systems Using Contracts",
             "discipline": "computer-science",
-            "categories": [
+            "keywords": [
                 "developing-ai"
             ],
             "people": "Julius Laurin Adelt, Pauline Anne Blohm, Paula Herber, Mathis Niehage, Anne Remke",
@@ -142,7 +142,7 @@
         {
             "title": "Visual AI",
             "discipline": "computer-science",
-            "categories": [
+            "keywords": [
                 "developing-ai"
             ],
             "people": "Lars Linsen",
@@ -161,7 +161,7 @@
         {
             "title": "BlockXT",
             "discipline": "mathematics",
-            "categories": [
+            "keywords": [
                 "developing-ai"
             ],
             "people": "Alexander Schell, Christian Engwer",
@@ -180,7 +180,7 @@
         {
             "title": "DUNE",
             "discipline": "mathematics",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "Christian Engwer, Alexander Schell, Gunner Birke & the international DUNE team",
@@ -199,7 +199,7 @@
         {
             "title": "Mathematical Methods in Machine Learning",
             "discipline": "mathematics",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "Frederick Jan Altrock, Christian Engwer",
@@ -218,7 +218,7 @@
         {
             "title": "Momentum-SAM: Sharpness Aware Minimization without Computational Overhead",
             "discipline": "mathematics",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "Frederick Jan Altrock\u00B9, Marlon Becker\u00B2, Benjamin Risse\u00B2",
@@ -237,7 +237,7 @@
         {
             "title": "",
             "discipline": "mathematics",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -256,7 +256,7 @@
         {
             "title": "",
             "discipline": "mathematics",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -275,7 +275,7 @@
         {
             "title": "",
             "discipline": "mathematics",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -294,7 +294,7 @@
         {
             "title": "",
             "discipline": "physics",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -313,7 +313,7 @@
         {
             "title": "",
             "discipline": "physics",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -332,7 +332,7 @@
         {
             "title": "",
             "discipline": "physics",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -351,7 +351,7 @@
         {
             "title": "",
             "discipline": "physics",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -370,7 +370,7 @@
         {
             "title": "",
             "discipline": "physics",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -389,7 +389,7 @@
         {
             "title": "",
             "discipline": "chemistry-pharmacy",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -408,7 +408,7 @@
         {
             "title": "",
             "discipline": "chemistry-pharmacy",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -427,7 +427,7 @@
         {
             "title": "",
             "discipline": "chemistry-pharmacy",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -446,7 +446,7 @@
         {
             "title": "",
             "discipline": "chemistry-pharmacy",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -465,7 +465,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -484,7 +484,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -503,7 +503,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -522,7 +522,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -541,7 +541,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -560,7 +560,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -579,7 +579,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -598,7 +598,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -617,7 +617,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -636,7 +636,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -655,7 +655,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -674,7 +674,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -693,7 +693,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -712,7 +712,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -731,7 +731,7 @@
         {
             "title": "",
             "discipline": "medicine",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -750,7 +750,7 @@
         {
             "title": "",
             "discipline": "geosciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -769,7 +769,7 @@
         {
             "title": "",
             "discipline": "geosciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -788,7 +788,7 @@
         {
             "title": "",
             "discipline": "geosciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -807,7 +807,7 @@
         {
             "title": "",
             "discipline": "geosciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -826,7 +826,7 @@
         {
             "title": "",
             "discipline": "biology",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -845,7 +845,7 @@
         {
             "title": "",
             "discipline": "theology-religious-studies",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -864,7 +864,7 @@
         {
             "title": "",
             "discipline": "theology-religious-studies",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -883,7 +883,7 @@
         {
             "title": "",
             "discipline": "theology-religious-studies",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -902,7 +902,7 @@
         {
             "title": "",
             "discipline": "law",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -921,7 +921,7 @@
         {
             "title": "",
             "discipline": "law",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -940,7 +940,7 @@
         {
             "title": "",
             "discipline": "law",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -959,7 +959,7 @@
         {
             "title": "",
             "discipline": "law",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -978,7 +978,7 @@
         {
             "title": "",
             "discipline": "law",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -997,7 +997,7 @@
         {
             "title": "",
             "discipline": "business-economics",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1016,7 +1016,7 @@
         {
             "title": "",
             "discipline": "business-economics",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1035,7 +1035,7 @@
         {
             "title": "",
             "discipline": "business-economics",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1054,7 +1054,7 @@
         {
             "title": "",
             "discipline": "educational-social-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1073,7 +1073,7 @@
         {
             "title": "",
             "discipline": "educational-social-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1092,7 +1092,7 @@
         {
             "title": "",
             "discipline": "educational-social-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1111,7 +1111,7 @@
         {
             "title": "",
             "discipline": "educational-social-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1130,7 +1130,7 @@
         {
             "title": "",
             "discipline": "educational-social-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1149,7 +1149,7 @@
         {
             "title": "",
             "discipline": "educational-social-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1168,7 +1168,7 @@
         {
             "title": "",
             "discipline": "educational-social-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1187,7 +1187,7 @@
         {
             "title": "",
             "discipline": "educational-social-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1206,7 +1206,7 @@
         {
             "title": "",
             "discipline": "educational-social-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1225,7 +1225,7 @@
         {
             "title": "",
             "discipline": "educational-social-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1244,7 +1244,7 @@
         {
             "title": "",
             "discipline": "educational-social-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1263,7 +1263,7 @@
         {
             "title": "",
             "discipline": "educational-social-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1282,7 +1282,7 @@
         {
             "title": "",
             "discipline": "educational-social-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1301,7 +1301,7 @@
         {
             "title": "",
             "discipline": "psychology-sport-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1320,7 +1320,7 @@
         {
             "title": "",
             "discipline": "psychology-sport-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1339,7 +1339,7 @@
         {
             "title": "",
             "discipline": "psychology-sport-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1358,7 +1358,7 @@
         {
             "title": "",
             "discipline": "psychology-sport-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1377,7 +1377,7 @@
         {
             "title": "",
             "discipline": "psychology-sport-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1396,7 +1396,7 @@
         {
             "title": "",
             "discipline": "psychology-sport-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1415,7 +1415,7 @@
         {
             "title": "",
             "discipline": "psychology-sport-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1434,7 +1434,7 @@
         {
             "title": "",
             "discipline": "psychology-sport-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1453,7 +1453,7 @@
         {
             "title": "",
             "discipline": "psychology-sport-sciences",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1472,7 +1472,7 @@
         {
             "title": "",
             "discipline": "history",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1491,7 +1491,7 @@
         {
             "title": "",
             "discipline": "history",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1510,7 +1510,7 @@
         {
             "title": "",
             "discipline": "philosophy",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1529,7 +1529,7 @@
         {
             "title": "",
             "discipline": "philology",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1548,7 +1548,7 @@
         {
             "title": "",
             "discipline": "philology",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1567,7 +1567,7 @@
         {
             "title": "",
             "discipline": "philology",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1586,7 +1586,7 @@
         {
             "title": "",
             "discipline": "philology",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1605,7 +1605,7 @@
         {
             "title": "",
             "discipline": "interdepartmental-institutions",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1624,7 +1624,7 @@
         {
             "title": "",
             "discipline": "interdepartmental-institutions",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1643,7 +1643,7 @@
         {
             "title": "",
             "discipline": "interdepartmental-institutions",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1662,7 +1662,7 @@
         {
             "title": "",
             "discipline": "interdepartmental-institutions",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1681,7 +1681,7 @@
         {
             "title": "",
             "discipline": "interdepartmental-institutions",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1700,7 +1700,7 @@
         {
             "title": "",
             "discipline": "interdepartmental-institutions",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",
@@ -1719,7 +1719,7 @@
         {
             "title": "",
             "discipline": "interdepartmental-institutions",
-            "categories": [
+            "keywords": [
                 ""
             ],
             "people": "",

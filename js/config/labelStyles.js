@@ -1,5 +1,4 @@
 export const labelStyles = {
-
     entity: {
         fontSize: "11px",
         fontWeight: "400",
@@ -14,14 +13,5 @@ export const labelStyles = {
         dx: 0,
         dy: 50,
         textAnchor: "middle"
-    },
-
-    category: {
-        fontSize: "14px",
-        fontWeight: "500",
-        dx: 0,
-        dy: 0,
-        textAnchor: "middle"
     }
-
 };

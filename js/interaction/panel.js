@@ -1,7 +1,7 @@
 import * as d3 from "d3";
 
 export function enablePanel(node, graph) {
-    node.on("click",(event,d)=>{
+    node.on("click",(d)=>{
         showNode(d, graph);
     });
 }
@@ -9,10 +9,7 @@ export function enablePanel(node, graph) {
 function showNode(node, graph) {
     if (node.type === "entity") {
         showEntity(node);
-    } else if (
-        node.type === "discipline" ||
-        node.type === "category"
-    ) {
+    } else {
         showGroup(node, graph);
     }
 }
@@ -24,18 +21,11 @@ function showEntity(node) {
     // Vorherigen Inhalt entfernen
     panel.innerHTML = "";
 
-    // ----------------------------------------
-    // Titel
-    // ----------------------------------------
-
     const title = document.createElement("h2");
     title.textContent = node.title || node.name || node.id;
     panel.appendChild(title);
 
-    // ----------------------------------------
-    // Location
-    // ----------------------------------------
-
+    
     if (node.location) {
         const location = document.createElement("p");
         location.innerHTML =
@@ -43,10 +33,6 @@ function showEntity(node) {
             + node.location;
         panel.appendChild(location);
     }
-
-    // ----------------------------------------
-    // Personen
-    // ----------------------------------------
 
     if (node.people) {
         const people = document.createElement("p");
@@ -56,19 +42,11 @@ function showEntity(node) {
         panel.appendChild(people);
     }
 
-    // ----------------------------------------
-    // Beschreibung
-    // ----------------------------------------
-
     if (node.description) {
         const description = document.createElement("p");
         description.textContent = node.description;
         panel.appendChild(description);
     }
-
-    // ----------------------------------------
-    // E-Mails
-    // ----------------------------------------
 
     if (node.emails && node.emails.length > 0) {
         const emailSection = document.createElement("div");
@@ -90,10 +68,6 @@ function showEntity(node) {
         emailSection.appendChild(emailList);
         panel.appendChild(emailSection);
     }
-
-    // ----------------------------------------
-    // Links
-    // ----------------------------------------
 
     if (node.links && node.links.length > 0) {
         const linksSection = document.createElement("div");
@@ -126,18 +100,10 @@ function showGroup(node, graph) {
         document.getElementById("info-panel");
     panel.innerHTML = "";
 
-    // ----------------------------------------
-    // Titel
-    // ----------------------------------------
-
     const title =
         document.createElement("h2");
     title.textContent = node.name;
     panel.appendChild(title);
-
-    // ----------------------------------------
-    // Typ
-    // ----------------------------------------
 
     const type =
         document.createElement("p");
@@ -147,19 +113,12 @@ function showGroup(node, graph) {
             : "Category";
     panel.appendChild(type);
 
-
-    // ----------------------------------------
     // Verbundene Entities finden
-    // ----------------------------------------
-
     const entityIds = new Set();
 
     graph.links.forEach(link => {
         let sourceId;
         let targetId;
-
-        // D3 kann Links nach der Simulation
-        // bereits in Node-Objekte umgewandelt haben
 
         sourceId =
             typeof link.source === "object"
@@ -176,37 +135,24 @@ function showGroup(node, graph) {
         }
     });
 
-
-    // ----------------------------------------
     // Entity Nodes aus den IDs holen
-    // ----------------------------------------
-
     const entities =
         graph.nodes.filter(entity =>
             entity.type === "entity" &&
             entityIds.has(entity.id)
         );
 
-
-    // ----------------------------------------
     // Überschrift
-    // ----------------------------------------
-
     const entityTitle =
         document.createElement("h3");
     entityTitle.textContent =
         `Entities (${entities.length})`;
     panel.appendChild(entityTitle);
 
-
-    // ----------------------------------------
     // Liste erstellen
-    // ----------------------------------------
-
     const list =
         document.createElement("ul");
     list.classList.add("entity-list");
-
 
     entities.forEach(entity => {
         const listItem =
