@@ -1,7 +1,7 @@
 import * as d3 from "d3";
 
 export function enablePanel(node, graph) {
-    node.on("click",(d)=>{
+    node.on("click",(event, d)=>{
         showNode(d, graph);
     });
 }
@@ -107,10 +107,7 @@ function showGroup(node, graph) {
 
     const type =
         document.createElement("p");
-    type.textContent =
-        node.type === "discipline"
-            ? "Discipline"
-            : "Category";
+    type.textContent = "Discipline"
     panel.appendChild(type);
 
     // Verbundene Entities finden

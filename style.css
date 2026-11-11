@@ -19,6 +19,28 @@ body {
     min-width: 0;
 }
 
+.search-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 20px;
+}
+
+.search-input-wrapper input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.search-input-wrapper input:focus {
+    outline: none;
+    border-color: steelblue;
+    box-shadow: 0 0 0 2px rgba(70, 130, 180, 0.15);
+}
+
 #filter-bar {
     padding: 15px;
     border-bottom: 1px solid #ddd;

@@ -1,29 +1,41 @@
+
 import { loadGraph } from "./data/loader.js";
 import { buildGraph } from "./data/graphBuilder.js";
 import { createGraph, updateGraph } from "./graph/createGraph.js";
-import { createFilters, resetFilters, getVisibleElements } from "./interaction/filters.js";
+import {
+    createFilters,
+    resetFilters,
+    getVisibleElements
+} from "./interaction/filters.js";
+
+// ========================================
+// Daten laden und Graph aufbauen
+// ========================================
 
 const data = await loadGraph();
 const graph = buildGraph(data);
 
 // ========================================
-// Graph
+// Graph erstellen
 // ========================================
 
 const graphElements = createGraph(graph);
 
 // ========================================
-// Filter
+// Filter anwenden
 // ========================================
 
-createFilters(filters => {
+function applyFilters(filters) {
 
-    const visibleGraph =
-        getVisibleElements(
-            graph,
-            filters
-        );
+    const visibleGraph = getVisibleElements(
+        graph,
+        filters
+    );
 
+    // Temporäre Debug-Ausgabe:
+    console.log("Aktive Filter:", filters);
+    console.log("Sichtbare Knoten:", visibleGraph.nodes.length);
+    console.log("Sichtbare Verbindungen:", visibleGraph.links.length);
 
     updateGraph(
         graphElements,
@@ -31,8 +43,13 @@ createFilters(filters => {
         filters,
         graph
     );
+}
 
-});
+// ========================================
+// Filter initialisieren
+// ========================================
+
+createFilters(applyFilters);
 
 // ========================================
 // Initialer Zustand
@@ -40,55 +57,28 @@ createFilters(filters => {
 
 const initialFilters = {
     disciplines: new Set(),
-    categories: new Set()
+    search: ""
 };
 
-
-const initialVisibleGraph =
-    getVisibleElements(
-        graph,
-        initialFilters
-    );
-
-
-updateGraph(
-    graphElements,
-    initialVisibleGraph,
-    initialFilters,
-    graph
-);
-
+applyFilters(initialFilters);
 
 // ========================================
 // Reset
 // ========================================
 
-const resetButton =
-    document.getElementById("reset-filters");
+const resetButton = document.getElementById("reset-filters");
 
-resetButton.addEventListener("click", () => {
+resetButton?.addEventListener("click", () => {
 
+    // Eingabefelder und internen Filterzustand zurücksetzen
     resetFilters();
 
-
-    const resetFiltersState = {
+    // Filterzustand der Grafik zurücksetzen
+    const emptyFilters = {
         disciplines: new Set(),
-        categories: new Set()
+        search: ""
     };
 
-
-    const visibleGraph =
-        getVisibleElements(
-            graph,
-            resetFiltersState
-        );
-
-
-    updateGraph(
-        graphElements,
-        visibleGraph,
-        resetFiltersState,
-        graph
-    );
+    applyFilters(emptyFilters);
 
 });
