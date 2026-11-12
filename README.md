@@ -1,13 +1,13 @@
 # AI Research Map
 
-Interaktive Netzwerkkarte zur Erkundung von KI-bezogener Forschung im universitären Umfeld. Die Visualisierung stellt Forschungseinheiten und ihre Beziehungen zu Disziplinen und thematischen Kategorien als Graph dar.
+Interaktive Netzwerkkarte zur Erkundung von KI-bezogener Forschung im universitären Umfeld. Die Visualisierung stellt Forschungseinheiten und ihre Beziehungen zu Disziplinen bzw. Fachbereichen der Universität Münster als Graph dar.
 
 > **Projektstatus:** In Entwicklung. Funktionen, Datenstruktur und Darstellung können sich noch ändern.
 
 ## Funktionen
 
 - **Interaktive Netzwerkvisualisierung:** Forschungsentitäten, Disziplinen und Kategorien werden als verbundene Knoten dargestellt.
-- **Filter:** Inhalte lassen sich nach Disziplinen und thematischen Kategorien eingrenzen.
+- **Filter:** Inhalte lassen sich nach Disziplinen und Suchtermen eingrenzen.
 - **Detailansicht:** Beim Auswählen einer Entität können ergänzende Informationen wie Beschreibung, beteiligte Personen, E-Mail-Adressen und weiterführende Links angezeigt werden.
 - **Datengetrieben:** Forschungsinformationen werden aus einer JSON-Datei geladen und vom Programm in den Graphen überführt.
 
@@ -71,7 +71,7 @@ Eine Entität kann beispielsweise so beschrieben werden:
 {
   "title": "Beispielprojekt",
   "discipline": "computer-science",
-  "categories": ["developing-ai"],
+  "keywords": ["developing-ai"],
   "people": ["Vorname Nachname"],
   "location": "",
   "description": "Kurze Beschreibung des Projekts oder der Forschung.",
@@ -89,11 +89,11 @@ Wichtige Hinweise zur Datenpflege:
 
 - `title` ist der angezeigte Name der Entität.
 - `discipline` muss auf eine vorhandene Disziplin in `js/config/disciplines.js` verweisen.
-- `categories` enthält eine Liste vorhandener Kategorie-IDs aus `js/config/categories.js`.
+- `keywords` enthält eine Liste vorhandener Keywords bzw. Tags, nach denen ein Benutzer suchen kann.
 - `people` und `emails` sind Listen; wenn mehrere Einträge vorhanden sind, werden sie als solche gepflegt.
-- `links` enthält Objekte mit einer `url` und einem lesbaren `title`.
-- Disziplinen und Kategorien müssen in den Konfigurationsdateien definiert sein, bevor sie in den Daten verwendet werden.
-- Prüfe beim Ändern des Datenformats auch `js/data/loader.js` und `js/data/graphBuilder.js`.
+- `links` ist eine Liste von Objekten mit einer `url` und einem lesbaren `title`.
+- Disziplinen müssen in den Konfigurationsdateien definiert sein, bevor sie in den Daten verwendet werden.
+- Bei einer Änderung des Datenformats müssen auch `js/data/loader.js` und `js/data/graphBuilder.js` angepasst werden.
 
 Die Graph-Implementierung erzeugt die für die Visualisierung benötigten Knoten-IDs und Verbindungen. Deshalb sollten `id`- oder `type`-Felder in den Rohdaten nur ergänzt werden, wenn die aktuelle Implementierung diese ausdrücklich erwartet.
 
@@ -105,7 +105,7 @@ ai-map-visualisierung/
 │   └── icons/            # Icons für Disziplinen
 ├── data/                 # Forschungsdaten im JSON-Format
 ├── js/
-│   ├── config/           # Konfiguration von Disziplinen, Kategorien und Stilen
+│   ├── config/           # Konfiguration von Disziplinen und Stilen
 │   ├── data/             # Laden und Aufbereiten der Daten
 │   ├── graph/            # Darstellung und Simulation des Graphen
 │   └── interaction/      # Filter, Hover-Verhalten und Detailansicht
@@ -117,4 +117,4 @@ ai-map-visualisierung/
 
 ## Mitarbeit und Datenqualität
 
-Vor dem Veröffentlichen neuer Forschungsdaten sollten Schreibweisen, Disziplinen, Kategorien und Links überprüft werden. Vermeide es, nicht für die Veröffentlichung bestimmte personenbezogene oder vertrauliche Informationen in die JSON-Datei aufzunehmen.
+Vor dem Veröffentlichen neuer Daten sollten Schreibweisen der Disziplinen, Keywords und Links überprüft werden.
