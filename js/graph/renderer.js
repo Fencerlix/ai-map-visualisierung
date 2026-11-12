@@ -28,6 +28,9 @@ export function createRenderer(container, graph){
         });
 
     // Rotierende Logo-Hintergründe für alle Nodes
+    const logoPath =
+    `${import.meta.env.BASE_URL}assets/icons/CDSC_Logo.svg`;
+    
     const nodeBackgrounds = container
         .append("g")
         .attr("class", "node-backgrounds")
@@ -35,22 +38,32 @@ export function createRenderer(container, graph){
         .data(graph.nodes.filter(d => d.type === "entity"))
         .join("image")
         .attr("class", "node-background")
-        .attr("href", "/assets/CDSC_logo.svg")
+        .attr("href", logoPath)
         .attr("width", d =>
             (nodeStyles[d.type]?.radius ?? 10) * 2
         )
         .attr("height", d =>
             (nodeStyles[d.type]?.radius ?? 10) * 2
         )
-        .attr("x", d =>
-            (d.x ?? 0) -
-            (nodeStyles[d.type]?.radius ?? 20)
-        )
-        .attr("y", d =>
-            (d.y ?? 0) -
-            (nodeStyles[d.type]?.radius ?? 20)
-        )
         .style("pointer-events", "none");
+
+    console.log(
+        "Node backgrounds:",
+        nodeBackgrounds.size()
+    );
+
+    console.log(
+        "Entity nodes:",
+        graph.nodes
+            .filter(d => d.type === "entity")
+            .map(d => ({
+                id: d.id,
+                x: d.x,
+                y: d.y,
+                type: d.type
+            }))
+    );
+
 
     const labels = container
         .append("g")
@@ -84,7 +97,7 @@ export function createRenderer(container, graph){
         .attr("width", nodeStyles.discipline.iconSize)
         .attr("height", nodeStyles.discipline.iconSize)
         .attr("href", d =>
-            `/assets/icons/${d.icon}.svg`
+            `${import.meta.env.BASE_URL}assets/icons/${d.icon}.svg`
         )
         .attr("x", d => d.x - nodeStyles.discipline.iconSize / 2)
         .attr("y", d => d.y - nodeStyles.discipline.iconSize / 2)
