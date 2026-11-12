@@ -101,14 +101,15 @@ Die Graph-Implementierung erzeugt die für die Visualisierung benötigten Knoten
 
 ```text
 ai-map-visualisierung/
-├── assets/
-│   └── icons/            # Icons für Disziplinen
-├── data/                 # Forschungsdaten im JSON-Format
 ├── js/
 │   ├── config/           # Konfiguration von Disziplinen und Stilen
 │   ├── data/             # Laden und Aufbereiten der Daten
 │   ├── graph/            # Darstellung und Simulation des Graphen
 │   └── interaction/      # Filter, Hover-Verhalten und Detailansicht
+├── public/
+│   ├── assets/
+│   │   └── icons/        # Icons für Disziplinen
+│   ├── data/             # Forschungsdaten im JSON-Format
 ├── index.html            # Einstiegspunkt der Webanwendung
 ├── style.css             # Gestaltung
 ├── package.json          # Abhängigkeiten und npm-Skripte
