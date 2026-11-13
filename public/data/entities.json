@@ -4,7 +4,8 @@
             "title": "AI Requires *Fast* & *Portable* Implementation",
             "discipline": "computer-science",
             "keywords": [
-                "developing-ai"
+                "AI Engineering",
+                "Portable AI"
             ],
             "people": "Sergei Gorlatch, Ari Rasch, Richard Schulze",
             "location":"Computer Science Department",
@@ -23,7 +24,11 @@
             "title": "Autonomous Intelligent Systems – From Adaptive Behavior to Cognitive Robots",
             "discipline": "computer-science",
             "keywords": [
-                "developing-ai"
+                "Robotics",
+                "Autonomous Systems",
+                "Deep Reinforcement Learning",
+                "Intelligent Agent",
+                "Adaptive Behavior"
             ],
             "people": "Malte Schilling",
             "location": "Computer Science Department",
@@ -42,7 +47,16 @@
             "title": "Computer Vision & Machine Learning Systems (CVMLS) Group",
             "discipline": "computer-science",
             "keywords": [
-                "developing-ai"
+                "Algorithm development",
+                "Medical imaging",
+                "Image analysis",
+                "Image recognition",
+                "Transformer architectures",
+                "Biomedical deep learning",
+                "Tracking",
+                "Detection",
+                "Long short-term memory networks (LSTMs)",
+                "Optical neural networks"
             ],
             "people": "Benjamin Risse (Group Leader), Marlon Becker, Daniel Beckmann, Julian Bigge, Dr. Dominik Drees, Luis Garcia-Rodriguez, Eike Gebauer, Jacqueline Kockwelp, Jonas Konrad, Pascal Kockwelp, Mingkun Tan, Malte Modlich, Constanza Andrea Molina Catricheo, Leon Pielage, Jonathan Radas, Sebastian Thiele",
             "location":"Institute for Geoinformatics",
@@ -63,7 +77,17 @@
             "title": "Machine Learning and Data Engineering (MLDE)",
             "discipline": "computer-science",
             "keywords": [
-                "developing-ai"
+                "Machine learning",
+                "Convolutional neural networks (CNNs)",
+                "Transformer architectures",
+                "Object detection",
+                "Tiny machine learning (TinyML)",
+                "Remote sensing",
+                "Energy systems",
+                "High-performance computing",
+                "Distributed computing",
+                "Parallel computing",
+                "Algorithm development"
             ],
             "people": "Fabian Gieseke (Group Leader), Jens Lechtenbörger, Nina Herrmann, Karsten Schrödter, Sugandha Arora, Una Kelly, Julian Kranz, Jan Pauls, Jorunn Mense, Jan Stenkamp, Sven Ligensa, Julia Seither",
             "location": "Department of Information Systems",
@@ -82,7 +106,19 @@
             "title": "Pattern Recognition and Image Analysis: Advanced Algorithm Development and Applications",
             "discipline": "computer-science",
             "keywords": [
-                "developing-ai"
+                "Computer Vision",
+                "Pattern recognition",
+                "Machine learning",
+                "Deep learning",
+                "Medical imaging",
+                "Bioinformatics",
+                "Cheminformatics",
+                "Classification",
+                "Regression",
+                "Clustering",
+                "Anomaly detection",
+                "Explainable AI (XAI)",
+                "Generative AI"
             ],
             "people": "Prof. Dr. Xiaoyi Jiang (Group Leader)",
             "location": "Department of Computer Science",
@@ -101,7 +137,9 @@
             "title": "Research Activities of the Research Group Data Science",
             "discipline": "computer-science",
             "keywords": [
-                "developing-ai"
+                "Intelligent Agent",
+                "Efficient reasoning",
+                "Compact model encoding"
             ],
             "people": "Tanya Braun, Sagad Hamid, Nazli Nur Karabulut",
             "location": "Computer Science Department",
@@ -120,7 +158,10 @@
             "title": "Safe Learning in Hybrid Systems Using Contracts",
             "discipline": "computer-science",
             "keywords": [
-                "developing-ai"
+                "Safety-critical systems",
+                "Formal languages",
+                "Deductive verification",
+                "Stochastic evaluation"
             ],
             "people": "Julius Laurin Adelt, Pauline Anne Blohm, Paula Herber, Mathis Niehage, Anne Remke",
             "location": "Computer Science Department",
@@ -143,7 +184,7 @@
             "title": "Visual AI",
             "discipline": "computer-science",
             "keywords": [
-                "developing-ai"
+                "Visual AI"
             ],
             "people": "Lars Linsen",
             "location": "Computer Science Department",
@@ -162,7 +203,12 @@
             "title": "BlockXT",
             "discipline": "mathematics",
             "keywords": [
-                "developing-ai"
+                "Applied mathematics",
+                "Numerical methods for PDEs",
+                "Machine learning hardware",
+                "Algorithm development",
+                "Software implementation",
+                "Hardware aware numerics"
             ],
             "people": "Alexander Schell, Christian Engwer",
             "location": "Institute of Applied Mathematics",
@@ -181,7 +227,12 @@
             "title": "DUNE",
             "discipline": "mathematics",
             "keywords": [
-                ""
+                "Algorithm development",
+                "Numerical methods for PDEs",
+                "Mathematical foundation",
+                "Data analysis",
+                "Software implementation",
+                "Scientific software"
             ],
             "people": "Christian Engwer, Alexander Schell, Gunner Birke & the international DUNE team",
             "location": "Institute of Applied Mathematics",
@@ -200,7 +251,10 @@
             "title": "Mathematical Methods in Machine Learning",
             "discipline": "mathematics",
             "keywords": [
-                ""
+                "Machine learning",
+                "Interpretability",
+                "Numerical mathematics",
+                "Statistics"
             ],
             "people": "Frederick Jan Altrock, Christian Engwer",
             "location": "Institute of Applied Mathematics",
@@ -219,10 +273,11 @@
             "title": "Momentum-SAM: Sharpness Aware Minimization without Computational Overhead",
             "discipline": "mathematics",
             "keywords": [
-                ""
+                "Sharpness aware minimization (SAM)",
+                "Deep neural networks"
             ],
-            "people": "Frederick Jan Altrock\u00B9, Marlon Becker\u00B2, Benjamin Risse\u00B2",
-            "location": "Institute of Applied Mathematics\u00B9, Institute for Geoinformatics\u00B2",
+            "people": "Frederick Jan Altrock<sup>1</sup>, Marlon Becker<sup>2</sup>, Benjamin Risse<sup>2</sup>",
+            "location": "Institute of Applied Mathematics<sup>1</sup>, Institute for Geoinformatics<sup>2</sup>",
             "description": "",
             "emails":[
                 ""
@@ -235,515 +290,702 @@
             ]
         },
         {
-            "title": "",
+            "title": "SAM Meets Gaze: Passive Eye Tracking for Prompt-based Instance Segmentation",
             "discipline": "mathematics",
             "keywords": [
-                ""
+                "Eye tracking",
+                "Prompt-based methods",
+                "Segment anything model (SAM)"
             ],
-            "people": "",
-            "location": "",
+            "people": "Daniel Beckmann, Jacqueline Kockwelp, Benjamin Risse",
+            "location": "Institute for Geoinformatics",
             "description": "",
             "emails":[
-                ""
+                "daniel.beckmann@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://zivgitlab.uni-muenster.de/cvmls/sam_meets_gaze",
+                    "title":"Code Repository"
+                },
+                {
+                    "url":"https://www.uni-muenster.de/Geoinformatics.cvmls/",
+                    "title":"Research Group \"Computer Vision and Machine Learning Systems\""
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Workgroup for Numerical Analysis & Scientific Computing",
             "discipline": "mathematics",
             "keywords": [
-                ""
+                "Applied mathematics",
+                "Numerical methods for PDEs",
+                "Inverse problems",
+                "Surrogate modeling",
+                "Dimensionality reduction",
+                "Machine learning",
+                "Deep neural networks",
+                "Autoencoders",
+                "Kernel methods",
+                "Algorithm development",
+                "Mathematical foundation",
+                "Software implementation"
             ],
-            "people": "",
-            "location": "",
+            "people": "Prof. Dr. Mario Ohlberger (Group Leader), Dr. Stephan Rave (akad. Rat), Hendrik Kleikamp (PhD Student), Benedikt Klein (PhD Student)",
+            "location": "Institute for Analysis and Numerics",
             "description": "",
             "emails":[
-                ""
+                "mario.ohlberger@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.uni-muenster.de/AMM/en/ohlberger/index.html",
+                    "title":"Research Group \"Numerical Analysis & Scientific Computing\""
                 }
             ]
         },
         {
-            "title": "",
-            "discipline": "mathematics",
-            "keywords": [
-                ""
-            ],
-            "people": "",
-            "location": "",
-            "description": "",
-            "emails":[
-                ""
-            ],
-            "links":[
-                {
-                    "url":"",
-                    "title":""
-                }
-            ]
-        },
-        {
-            "title": "",
+            "title": "Intelligent Matter Based on Refractive Microswimmers",
             "discipline": "physics",
             "keywords": [
-                ""
+                "Active microparticles",
+                "Light refraction",
+                "Nonequilibrium systems",
+                "Photonic computing",
+                "Physical reservoir computing"
             ],
-            "people": "",
-            "location": "",
+            "people": "Julian Jeggle, Raphael Wittkowski",
+            "location": "Institute of Theoretical Physics",
             "description": "",
             "emails":[
-                ""
+                "j_jegg01@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.uni-muenster.de/SFB1459/research/researchareab.html",
+                    "title":"SFB 1459 - Intelligent Matter - Project B01"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Machine Learning for Complex Dynamical Systems",
             "discipline": "physics",
             "keywords": [
-                ""
+                "Complex systems",
+                "Dynamical systems",
+                "Dimensionality reduction",
+                "System identification",
+                "Self-organization"
             ],
-            "people": "",
-            "location": "",
+            "people": "Oliver Kamps<sup>1</sup>, Svetlana Gurevich<sup>1,2</sup>, Uwe Thiele<sup>1,2</sup>",
+            "location": "Center for Data Science and Complexity<sup>1</sup>, Institute of Theoretical Physics<sup>2</sup>",
             "description": "",
             "emails":[
-                ""
+                "okamp@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.uni-muenster.de/CDSC/en/index.html",
+                    "title":"Center for Data Science and Complexity"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Machine-learning Off-shell Effects in Top Quark Production at the LHC",
             "discipline": "physics",
             "keywords": [
-                ""
+                "Algorithm development",
+                "Bayesian algorithms",
+                "Bayesian neural networks",
+                "Classification",
+                "Deep learning",
+                "Diffusion models",
+                "Generative AI",
+                "Machine learning",
+                "Neural networks",
+                "Particle physics",
+                "Reweighting"
             ],
-            "people": "",
-            "location": "",
+            "people": "Tomáš Ježo (PhD Supervisor), Michael Klasen (PhD Supervisor), Mathias Kuschick (PhD Student)",
+            "location": "Institute of Theoretical Physics",
             "description": "",
             "emails":[
-                ""
+                "Mathias.Kuschick@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.uni-muenster.de/Physik.TP/research/klasen/",
+                    "title":"Research Group of  Prof. Dr. Michael Klasen"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Materials Research for More Efficient AI Hardware",
             "discipline": "physics",
             "keywords": [
-                ""
+                "Materials research",
+                "Hardware design",
+                "In-memory computing",
+                "Photonic computing",
+                "Phase change materials",
+                "Atomistic simulations",
+                "Machine learning",
+                "Neural networks",
+                "Intelligent matter"
             ],
-            "people": "",
-            "location": "",
+            "people": "Prof. Dr. Martin Salinga (Group Leader), Nils Holle (Postdoc), Niklas Vollmar (PhD Student), Sebastian Walfort (PhD Student)",
+            "location": "Institute of Materials Physics",
             "description": "",
             "emails":[
-                ""
+                "martin.salinga@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.uni-muenster.de/Physik.MP/Salinga/en/",
+                    "title":"Research Group of Prof. Dr. Martin Salinga"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Theoretical Particle Physics",
             "discipline": "physics",
             "keywords": [
-                ""
+                "AI",
+                "Bayesian algorithms",
+                "Big data",
+                "Classification",
+                "Ethics",
+                "Explainable AI (XAI)",
+                "Generative AI",
+                "Interpretability",
+                "Machine learning",
+                "Neural networks",
+                "Particle physics",
+                "Philosophy of science",
+                "Sustainability",
+                "Teaching"
             ],
-            "people": "",
-            "location": "",
+            "people": "Prof. Dr. Michael Klasen, Dr. Tomas Jezo, Mathias Kuschick",
+            "location": "Institute for Theoretical Physic",
             "description": "",
             "emails":[
-                ""
+                "tomas.jezo@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.uni-muenster.de/Physik.TP/research/klasen/",
+                    "title":"Research Group of Prof. Dr. Michael Klasen"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Glorius Group - Uncovering Reactivities and Functionalities Through Data-driven Organic Chemistry",
             "discipline": "chemistry-pharmacy",
             "keywords": [
-                ""
+                "Organic chemistry",
+                "Cheminformatics",
+                "High-throughput experimentation",
+                "Featurization",
+                "Transformer",
+                "Gradient boosting",
+                "Dimensionality reduction"
             ],
-            "people": "",
-            "location": "",
+            "people": "Frank Glorius (Group Leader), Felix Katzenburg (PhD Student), Debanjan Rana (PhD Student), Leon Schlosser (PhD Student), Florian Boser (PhD Student), Jan Spies (PhD Student), Niklas Hölter (PhD Student)",
+            "location": "Organisch-Chemisches Institut",
             "description": "",
             "emails":[
-                ""
+                "glorius@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.uni-muenster.de/Chemie.oc/glorius/index.html",
+                    "title":"Research Group of Prof. Dr. Frank Glorius"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Group for Theory of Complex Systems: Understanding Machine Learning Interatomic Potentials and Structure-Property Relationships of Molecular Structures Using Machine Learning",
             "discipline": "chemistry-pharmacy",
             "keywords": [
-                ""
+                "Complex molecular systems",
+                "Dynamical systems",
+                "Molecular dynamics",
+                "MLIP",
+                "Interatomic potentials",
+                "Structure-property relationships",
+                "Liquid electrolyte composition analysis",
+                "Intelligent matter",
+                "Interpretability",
+                "Ionic conductivity",
+                "Ionic liquids",
+                "Neural networks",
+                "Linear regression",
+                "Dimensionality reduction",
+                "Optimization",
+                "Active learning"
             ],
-            "people": "",
-            "location": "",
+            "people": "Andreas Heuer<sup>1</sup> (Group Leader), Souvik Mitra<sup>1</sup> (PhD Student), Jignesh Dhumal<sup>1</sup> (PhD Student),Jonas Mensing<sup>1</sup> (PhD Student), Mirko Fischer<sup>1</sup> (PhD Student), David Bienek<sup>1,2</sup> (PhD Student)",
+            "location": "<sup>1</sup>Institute for Physical Chemistry, <sup>2</sup>Forschungszentrum Jülich",
             "description": "",
             "emails":[
-                ""
+                "andheuer@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.uni-muenster.de/Chemie.pc/forschung/heuer",
+                    "title":"Research Group of Prof. Dr. Andreas Heuer"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "KochLab – From Self-organizing Maps to Explainable AI: Molecular Machine Learning",
             "discipline": "chemistry-pharmacy",
             "keywords": [
-                ""
+                "Cheminformatics",
+                "Clustering",
+                "Drug discovery",
+                "Explainable AI (XAI)",
+                "Dimensionality reduction",
+                "Generative AI",
+                "Deep learning",
+                "Life sciences",
+                "Machine learning",
+                "Self-organizing maps (SOMs)",
+                "Neural networks",
+                "Software implementation",
+                "Scientific computing",
+                "Reinforcement learning",
+                "Genetic algorithms"
             ],
-            "people": "",
-            "location": "",
+            "people": "Prof. Dr. Oliver Koch (Group Leader), Malte Grieswelle (PhD Student), Samuel Homberg (PhD Student), Johannes Kaminski (PhD Student), Felipe Victoria-Muñoz (PhD Student), Mehmet Ali Yücel (PhD Student)",
+            "location": "Institute of Pharmaceutical and Medicinal Chemistry",
             "description": "",
             "emails":[
-                ""
+                "o.koch@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://kochlab.org/",
+                    "title":"Research Group of Prof. Dr. Oliver Koch"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Quantum Chemistry: Machine-Learning for Molecular Electronic-Structure Theory",
             "discipline": "chemistry-pharmacy",
             "keywords": [
-                ""
+                "Quantum chemistry",
+                "Density Functional theory",
+                "Quantum chemistry",
+                "Molecular properties",
+                "Electronic-structure theory"
             ],
-            "people": "",
-            "location": "",
+            "people": "Johannes Neugebauer (Group Leader), Andreas Riedmiller (PhD Student), Sakyo Ochi (PhD Student)",
+            "location": "Organic Chemistry Institute",
             "description": "",
             "emails":[
-                ""
+                "j.neugebauer@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.uni-muenster.de/Chemie.oc/neugebauer/",
+                    "title":"Research Group of Prof. Dr. Johannes Neugebauer"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Advancing Machine Learning in Medicine through Infrastructure and Regulatory Compliance",
             "discipline": "medicine",
             "keywords": [
-                ""
+                "Personalized medicine",
+                "Machine learning",
+                "Machine learning workflow tools",
+                "Regulatory compliance"
             ],
-            "people": "",
-            "location": "",
+            "people": "Carlotta Barkhau<sup>1</sup>, Udo Dannlowski<sup>1</sup>, Daniel Emden<sup>1</sup>, Jan Ernsting<sup>1</sup>, Lukas Fisch<sup>1</sup>, Tim Hahn<sup>1</sup>, Xiaoyi Jiang<sup>1</sup>, Maximilian Konowski<sup>1</sup>, Ramona Leenings<sup>2</sup>,  Nils Winter<sup>1</sup>",
+            "location": "<sup>1</sup> Institute for Translational Psychiatry, <sup>2</sup> Medical Machine Learning Lab",
             "description": "",
             "emails":[
-                ""
+                "dannlow@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.medizin.uni-muenster.de/translap/das-institut.html",
+                    "title":"Institute for Translational Psychiatry"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Artificial Intelligence in Ophthalmology",
             "discipline": "medicine",
             "keywords": [
-                ""
+                "Classification",
+                "Computer-assisted",
+                "Deep learning",
+                "Healthcare",
+                "Image analysis",
+                "Large language models (LLMs)",
+                "Machine learning",
+                "Medical diagnosis",
+                "Medical imaging",
+                "Pattern recognition",
+                "Self-supervised learning",
+                "Foundation models"
             ],
-            "people": "",
-            "location": "",
+            "people": "Nicole Eter<sup>1</sup>, Raphael Diener<sup>1</sup>, Lea Holtrup<sup>1</sup>, Jens Storp<sup>1</sup>, Cedric Weich<sup>1</sup>, Julian Zimmermann<sup>1</sup>, Reinhild Hofmann<sup>1</sup>, Tobias Brix<sup>2</sup>, Dominik Heider<sup>2</sup>, Arnim Malcherek<sup>3</sup>",
+            "location": "<sup>1</sup> Department of Ophthalmology, <sup>2</sup> Institute for Medical Informatics, <sup>3</sup> Department of Informatics (University of Applied Sciences Darmstadt)",
             "description": "",
             "emails":[
-                ""
+                "reinhild.hofmann@ukmuenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.medizin.uni-muenster.de/en/ophthalmology/research/artificial-intelligence.html",
+                    "title":"Klinik für Augenheilkunde - Artificial Intelligence"
+                },
+                {
+                    "url":"https://www.medizin.uni-muenster.de/en/ophthalmology/research/eyematics-project.html",
+                    "title":"Eyematics Project"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Cinnamon: An Accessible Data Protection and AI-Based Synthetization Solution",
             "discipline": "medicine",
             "keywords": [
-                ""
+                "Medical informatics",
+                "Software implementation",
+                "Generative AI",
+                "Anonymization",
+                "Data privacy",
+                "Data sharing"
             ],
-            "people": "",
-            "location": "",
+            "people": "Yannik Warnecke<sup>1</sup>, Daniel Preciado-Marquez<sup>1</sup>, Martin Kuhn<sup>2</sup>, Karen Otte<sup>3</sup>, Laura Isabell Bley<sup>4</sup>, Joscha Grüger<sup>2</sup>, Carsten Weishaupt<sup>4</sup>, Magnus Welz<sup>5</sup>, Alexander Vogel<sup>5</sup>, Ralph Bergmann<sup>2,6</sup>, Stephan-Alexander Braun<sup>4,7</sup>, Fabian Prasser<sup>3</sup>, Dominik Heider<sup>1</sup>, Michael Storck<sup>1</sup>",
+            "location": "<sup>1</sup>Institute of Medical Informatics (University of Münster), <sup>2</sup>German Research Center for Artificial Intelligence (DFKI), <sup>3</sup>Medical Informatics Group (Berlin Institute of Health at Charité – Universitätsmedizin Berlin), <sup>4</sup>Department of Dermatology (University Clinic Muenster) <sup>5</sup>DATATREE AG (Dortmund), <sup>6</sup>Business Information Systems II (Trier University), < sup>7</ sup >Department of Dermatology (Medical Faculty, Heinrich Heine University Duesseldorf)",
             "description": "",
             "emails":[
-                ""
+                "michael.storck@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://github.com/KI-AIM/Cinnamon",
+                    "title":"Git Hub: KI-AIM Cinnamon"
+                },
+                {
+                    "url":"https://ki-aim.github.io/cinnamon-docs/",
+                    "title":"Cinnamon Documentation"
+                },
+                {
+                    "url":"https://www.forschung-it-sicherheit-kommunikationssysteme.de/projekte/ki-aim",
+                    "title":"Project \"AI-based anonymisation in the medical sector\" (KI-AIM)"
+                },
+                {
+                    "url":"https://www.medizin.uni-muenster.de/imi/das-institut.html",
+                    "title":"Institute of Medical Informatics"
+                },
+                {
+                    "url":"https://www.dfki.de/web/forschung/forschungsbereiche/erfahrungsbasierte-lernende-systeme",
+                    "title":"German Research Center for Artificial Intelligence"
+                },
+                {
+                    "url":"https://www.bihealth.org/de/forschung/arbeitsgruppe/ag-prasser-medizininformatik",
+                    "title":"Medical Informatics Group at Berlin Institute of Health at Charité"
+                },
+                {
+                    "url":"https://web.ukm.de/hautklinik-abteilungen0/dermatoonkologie-und-hauttumorzentrum",
+                    "title":"Department of Dermatology at University Clinic Muenster"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Classification of Urine Components using Supervised Machine Learning Based on Physical Particle Data Retrieved by Digital Holographic Microscopy",
             "discipline": "medicine",
             "keywords": [
-                ""
+                "Biomedical imaging",
+                "Digital holographic microscopy (DHM)",
+                "Medical AI",
+                "Supervised learning",
+                "Classification",
+                "Medical diagnostics"
             ],
-            "people": "",
-            "location": "",
+            "people": "Marlene Kallass, Bjoern Kemper, Alvaro Barroso Pena, Jürgen Schnekenburger",
+            "location": "Biomedical Technology Center",
             "description": "",
             "emails":[
-                ""
+                "schnekenburger@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.medizin.uni-muenster.de/biomedtech/biomedizinisches-technologiezentrum-bmtz.html",
+                    "title":"Biomedical Technology Center"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Comparison of Feature Extraction Methods for Spike Detection with Artificial Neural Networks: A Focal Epilepsy Case Study",
             "discipline": "medicine",
             "keywords": [
-                ""
+                "Neural networks",
+                "Sensitivity",
+                "Specificity",
+                "Feature extraction",
+                "Signal classification",
+                "Classification",
+                "Katz fractal dimension (Katz FD)",
+                "Neuroscience",
+                "Medical diagnostics"
             ],
-            "people": "",
-            "location": "",
+            "people": "Turgay Batbat<sup>1</sup>, Ayşegül Güven<sup>1</sup>, Christoph Kellinghaus<sup>2</sup>, Stjepana Kovac<sup>3</sup>, Simone Melnik<sup>4</sup>, Gabriel Moeddel<sup>3</sup>, Stefan Rampp<sup>5</sup>, Carsten Wolters<sup>4</sup>, Demet Yesilbas<sup>4</sup>",
+            "location": "<sup>1</sup> Department of Biomedical Engineering (Faculty of Engineering, Erciyes University, Kayseri/Turkey), <sup>2</sup> Department of Neurology (Klinikum Osnabrück), <sup>3</sup> Epilepsy Center Münster-Osnabrück (Department of Neurology with Institute of Translational Neurology, UKM), <sup>4</sup> Institute for Biomagnetism and Biosignalanalysis, <sup>5</sup> University Hospital Erlangen",
             "description": "",
             "emails":[
-                ""
+                "cawolt@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.medizin.uni-muenster.de/biomag/ibb.html",
+                    "title":"Institute for Biomagnetism and Biosignal Analysis"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "DUNEuro",
             "discipline": "medicine",
             "keywords": [
-                ""
+                "Medical diagnosis",
+                "Numerical methods for PDEs",
+                "Data analysis",
+                "Software implementation"
             ],
-            "people": "",
-            "location": "",
+            "people": "Malte Höltershinken<sup>1</sup>, Carsten Wolters<sup>1</sup>, Christian Engwer<sup>2</sup> & previous co-authors",
+            "location": "<sup>1</sup> Institute for Biomagnetism and Biosignalanalysis, <sup>2</sup> Institute of Applied Mathematics",
             "description": "",
             "emails":[
-                ""
+                "m_hoel20@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.medizin.uni-muenster.de/duneuro/startseite.html",
+                    "title":"DUNEuro"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Employing ML and AI to Identify Biomarkers Within the Human Microbiome",
             "discipline": "medicine",
             "keywords": [
-                ""
+                "Human microbiome",
+                "AI methodologies",
+                "Latent representation",
+                "Disease risk forecasting",
+                "Personalized medicine"
             ],
-            "people": "",
-            "location": "",
+            "people": "Sven Kleine Bardenhorst<sup>1</sup>, Daniel Hagenfeld<sup>2</sup>, André Karch<sup>1</sup>, Nicole Rübsamen<sup>1</sup>",
+            "location": "<sup>1</sup> Institute of Epidemiology and Social Medicine, <sup>2</sup> Department of Periodontology and Operative Dentistry",
             "description": "",
             "emails":[
-                ""
+                "akarch@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.medizin.uni-muenster.de/epi/herzlich-willkommen.html",
+                    "title":"Institute of Epidemiology and Social Medicine"
+                },
+                {
+                    "url":"https://www.ukm.de/kliniken/parodontologie-zahnerhaltung",
+                    "title":"Department of Periodontology and Operative Dentistry"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Enhancement Therapy: AI-Driven Audiobook-Based Treatment of Developmental Language Disorders",
             "discipline": "medicine",
             "keywords": [
-                ""
+                "Clinical linguistics",
+                "Developmental language disorders",
+                "Large language models (LLMs)",
+                "Phonology",
+                "Support vector machines (SVM)"
             ],
-            "people": "",
-            "location": "",
+            "people": "Nina Goes<sup>1,2</sup>, Denise Siemons-Lühring<sup>2</sup>, Lars Meyer<sup>2,3</sup>, Andreas M. Kist<sup>1</sup>, Katrin Neumann<sup>2</sup>",
+            "location": "<sup>1</sup> Department for Artificial Intelligence in Biomedical Engineering (Friedrich-Alexander-Universität Erlangen-Nürnberg), <sup>2</sup> Klinik für Phoniatrie und Pädaudiologie, <sup>3</sup> Max-Planck-Institut für Kognitions- und Neurowissenschaften (Leipzig)",
             "description": "",
             "emails":[
-                ""
+                "lmeyer@cbs.mpg.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.ukm.de/kliniken/phoniatrie-paedaudiologie/klinische-studien",
+                    "title":"Overview of clinical studies"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Institute of Medical Education and Student Affairs (IfAS) – Revolutionizing Medical Education through AI and VR",
             "discipline": "medicine",
             "keywords": [
-                ""
+                "Medical education",
+                "Virtual reality",
+                "Virtual agents",
+                "Skin pathologies",
+                "Diffusion models",
+                "Medical training",
+                "Chatbots",
+                "Large language models (LLMs)",
+                "Patient-Doctor-Machine relationship"
             ],
-            "people": "",
-            "location": "",
+            "people": "Prof. Bernhard Marschall$^1$ (Group Leader), Dr. Anna Junga$^1$ (Head of Digital Learning Methods), Ole Hätscher$^{1,2}$ (Research Associate), Henriette Schulze$^1$ (Research Associate), Niklas Tiefenbach$^1$ (Technical Associate), Prof. Benjamin Risse$^3$ (Group Leader), Pascal Kockwelp$^3$ (Research Associate), Leon Pielage$^3$ (Research Associate)",
+            "location": "<sup>1</sup> Institute of Medical Education and Student Affairs (IfAS), <sup>2</sup> Department of Psychology, <sup>3</sup> Computer Vision and Machine Learning Systems (CVMLS)",
             "description": "",
             "emails":[
-                ""
+                "anna.junga@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://medicampus.uni-muenster.de/citrus.html",
+                    "title":"Computer Immersive TRaining Using Simulations (CITRUS)"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Institute of Medical Informatics",
             "discipline": "medicine",
             "keywords": [
-                ""
+                "Medical data science",
+                "Omics",
+                "Bioinformatics",
+                "Medical machine learning",
+                "Federated learning",
+                "Medical diagnosis",
+                "Causality"
             ],
-            "people": "",
-            "location": "",
+            "people": "Dominik Heider",
+            "location": "Institute of Medical Informatics",
             "description": "",
             "emails":[
-                ""
+                "Dominik.heider@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://imi.uni-muenster.de/",
+                    "title":"Institute of Medical Informatics"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Medical Machine Learning Lab",
             "discipline": "medicine",
             "keywords": [
-                ""
+                "Medical machine learning",
+                "Neuroimaging",
+                "Clinical psychology",
+                "Bayesian algorithms",
+                "Medical imaging"
             ],
-            "people": "",
-            "location": "",
+            "people": "Carlotta Barkhau, Udo Dannlowski, Daniel Emden, Jan Ernsting, Lukas Fisch, Tim Hahn, Maximilian Konowski, Ramona Leenings, Clemens Pellengahr, Nils Winter",
+            "location": "Institute for Translational Psychiatry",
             "description": "",
             "emails":[
-                ""
+                "dannlow@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.medizin.uni-muenster.de/translap/das-institut.html",
+                    "title":"Institute for Translational Psychiatry"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Patient Centred Medicine in the Digital Age",
             "discipline": "medicine",
             "keywords": [
-                ""
+                "Digitalized medicine",
+                "Healthcare",
+                "Patient autonomy",
+                "Ethical implications",
+                "Patient-Doctor-Machine relationship"
             ],
-            "people": "",
-            "location": "",
+            "people": "Susanne Hiekel, Bettina Schöne-Seifert, Marco Stier",
+            "location": "Institute for Ethics, History and Theory of Medicine",
             "description": "",
             "emails":[
-                ""
+                "marco.stier@ukmuenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://gepris.dfg.de/gepris/projekt/467991668?context=projekt&task=showDetail&id=467991668&",
+                    "title":"Project \"Ethical and medical-theoretical challenges for the individualised patient benefit of digital medicine\""
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Personalization TrAIning in Medicine (PerTRAIN) – Integrating State-of-the-Art Personalized Knowledge and Technologies into Medical Education",
             "discipline": "medicine",
             "keywords": [
                 ""
             ],
-            "people": "",
-            "location": "",
+            "people": "Prof. Dr. Mitja Back<sup>1,2</sup>, Ole Hätscher<sup>1</sup>, Prof. Dr. Benjamin Risse<sup>3</sup>, Pascal Kockwelp<sup>3</sup>, Leon Pielage<sup>3</sup>, Prof. Dr. Bernhard Marschall<sup>4</sup>, Dr. Anna Junga<sup>4</sup>, Dr. Jennifer Dabel<sup>4</sup>, Dr. Ulrich Burgbacher<sup>5</sup>, Dr. Manuel Prätorius<sup>5</sup>, Dr. Sven Strohoff<sup>5</sup>, Dr. Jan Rothers<sup>5</sup>",
+            "location": "<sup>1</sup>Department of Psychology, <sup>2</sup>Joint Institute for Individualisation in a Changing Environment (JICE), <sup>3</sup>Institute for Geoinformatics, <sup>4</sup>Institute of Medical Education and Student Affairs (IfAS), <sup>5</sup>Tapdo Technologies GmbH",
             "description": "",
             "emails":[
-                ""
+                "mitja.back@uni-muenster.de",
+                "ole.haetscher@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://pertrain.ai",
+                    "title":"Personalized Medical TrAIning (PerTRAIN)"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "Predicting Antimicrobial Resistance with Machine Learning Algorithms",
             "discipline": "medicine",
             "keywords": [
-                ""
+                "Microbiology",
+                "Antimicrobial resistance",
+                "Pathogen",
+                "Environment",
+                "Host",
+                "Random forests",
+                "Extreme gradient boosting (XGBoost)",
+                "Support vector machines (SVM)",
+                "Regularized linear regressions (glmnet)",
+                "Neural networks"
             ],
-            "people": "",
-            "location": "",
+            "people": "Univ.-Prof. Dr. med. Frieder Schaumburg<sup>1</sup>, Dr. rer. nat. Raphael Koch<sup>2</sup>, Univ.-Prof. Dr. rer. nat. Dominik Heider<sup>3</sup>, Dr. rer. medic. Michael Storck<sup>3</sup>",
+            "location": "<sup>1</sup> Institute of Medical Microbiology, <sup>2</sup> Institute of Biostatistics and Clinical Research, <sup>3</sup> Institute of Medical Informatics",
             "description": "",
             "emails":[
-                ""
+                "frieder.schaumburg@ukmuenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.medizin.uni-muenster.de/institut-fuer-medizinische-mikrobiologie/forschung/translationale-mikrobiologie/laufende-projekte.html",
+                    "title":"Institute of Medical Microbiology"
                 }
             ]
         },
         {
-            "title": "",
+            "title": "West German Infection Prevention Network - AI-based Antibiotic Resistance Detection (WIN-KID)",
             "discipline": "medicine",
             "keywords": [
-                ""
+                "Microbiology",
+                "Genomics",
+                "Personalized medicine",
+                "Machine learning",
+                "Antibiotic resistance"
             ],
-            "people": "",
-            "location": "",
+            "people": "Natalie Scherff$^1$ (Project Coordinator), Frieder Schaumburg$^2$, Alexander Mellmann$^1$ (Project Leader)",
+            "location": "<sup>1</sup>Institute of Hygiene, <sup>2</sup> Institute of Medical Microbiology",
             "description": "",
             "emails":[
-                ""
+                "mellmann@uni-muenster.de"
             ],
             "links":[
                 {
-                    "url":"",
-                    "title":""
+                    "url":"https://www.medizin.uni-muenster.de/hygiene/forschung/forschungsgebiete-und-arbeitsgruppen/krankenhaus-und-umwelthygiene/arbeitsgruppe-univ-prof-dr-med-alexander-mellmann.html",
+                    "title":"Research Group of Univ.-Prof. Dr. med. Alexander Mellmann"
                 }
             ]
         },
